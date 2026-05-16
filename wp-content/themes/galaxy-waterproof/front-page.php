@@ -77,28 +77,24 @@
 
 <section class="problems-section">
     <div class="container">
-        <div class="problems-layout">
-            <div class="prob-left">
-                <div class="prob-heading"><h2>你是否也經歷<br>同樣的問題？</h2></div>
-                <div class="prob-card prob-card--large">
-                    <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-concrete.jpg" alt="石屎剝落、批盪鬆脫">
-                    <div class="prob-caption"><h3>石屎剝落、批盪鬆脫</h3><p>牆身起泡發霉、滲水入室。</p></div>
-                </div>
-            </div>
-            <div class="prob-right">
-                <div class="prob-card">
-                    <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-rooftop.jpg" alt="天台積水／排水不良">
-                    <div class="prob-caption"><h3>天台積水／排水不良</h3><p>天台積水或排水不良，雨後長期滯水，加速滲漏與防水層老化。</p></div>
-                </div>
-                <div class="prob-card">
-                    <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-window.jpg" alt="窗邊接駁位老化">
-                    <div class="prob-caption"><h3>窗邊接駁位老化</h3><p>收口、轉角、接駁位置重點處理，保證防水合乎效果。</p></div>
-                </div>
-                <div class="prob-card">
-                    <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-bathroom.jpg" alt="浴室防水層失效">
-                    <div class="prob-caption"><h3>浴室防水層失效</h3><p>浴室防水層失效，水氣滲入牆身地台，易發霉剝落。</p></div>
-                </div>
-            </div>
+        <div class="prob-heading"><h2>你是否也經歷<br>同樣的問題？</h2></div>
+    </div>
+    <div class="problems-grid">
+        <div class="prob-card">
+            <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-concrete.jpg" alt="石屎剝落、批盪鬆脫">
+            <div class="prob-caption"><h3>石屎剝落、批盪鬆脫</h3><p>牆身起泡發霉、滲水入室。</p></div>
+        </div>
+        <div class="prob-card">
+            <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-rooftop.jpg" alt="天台積水／排水不良">
+            <div class="prob-caption"><h3>天台積水／排水不良</h3><p>天台積水或排水不良，雨後長期滯水，加速滲漏與防水層老化。</p></div>
+        </div>
+        <div class="prob-card">
+            <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-window.jpg" alt="窗邊接駁位老化">
+            <div class="prob-caption"><h3>窗邊接駁位老化</h3><p>收口、轉角、接駁位置重點處理，保證防水合乎效果。</p></div>
+        </div>
+        <div class="prob-card">
+            <img class="prob-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/prob-bathroom.jpg" alt="浴室防水層失效">
+            <div class="prob-caption"><h3>浴室防水層失效</h3><p>浴室防水層失效，水氣滲入牆身地台，易發霉剝落。</p></div>
         </div>
     </div>
 </section>
