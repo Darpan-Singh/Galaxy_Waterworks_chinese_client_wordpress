@@ -198,7 +198,7 @@ ul{list-style:none}
   position:relative;z-index:1;
   padding-top:80px;padding-bottom:80px;
 }
-.hero-text{max-width:560px}
+.hero-text{max-width:560px;text-align:left}
 .hero-eyebrow{
   font-size:13px;font-weight:700;
   letter-spacing:.22em;text-transform:uppercase;
