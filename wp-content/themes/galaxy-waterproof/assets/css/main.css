@@ -196,10 +196,14 @@ ul{list-style:none}
     rgba(200,240,240,.18) 65%,
     rgba(200,240,240,0) 82%);
 }
-/* .hero-content also has .container */
+/* hero-content overrides container centering — text stays left */
 .hero-content{
   position:relative;z-index:1;
   padding-top:80px;padding-bottom:80px;
+  margin-left:0 !important;
+  max-width:none !important;
+  padding-left:clamp(40px,8vw,180px) !important;
+  width:100%;
 }
 .hero-text{max-width:560px;text-align:left}
 .hero-eyebrow{
