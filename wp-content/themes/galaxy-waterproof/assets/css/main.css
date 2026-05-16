@@ -103,6 +103,8 @@ ul{list-style:none}
 .btn-whatsapp-solid:hover{opacity:.88;transform:translateY(-1px)}
 
 .btn-lg{padding:14px 32px !important;font-size:15px !important}
+.btn-white{background:#fff;color:var(--text)}
+.btn-white:hover{background:rgba(255,255,255,.88);transform:translateY(-1px)}
 
 /* ══════════════════════════════════════════════
    HEADER
