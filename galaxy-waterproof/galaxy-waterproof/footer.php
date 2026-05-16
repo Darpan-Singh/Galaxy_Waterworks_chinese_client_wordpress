@@ -7,7 +7,7 @@
             </a>
             <p class="footer-desc">本公司為屋宇署認可I級註冊小型工程承建商(公司) 多年來致力為客戶提供專業鋁窗檢驗，維修保養及防漏工程服務。</p>
             <div class="footer-cta-btns">
-                <a href="<?php echo esc_url( home_url('/contact') ); ?>" class="btn btn-outline">網上報價查詢</a>
+                <a href="mailto:galaxywindowhk@gmail.com" class="btn btn-outline">網上報價查詢</a>
                 <a href="https://wa.me/85252225111" class="btn btn-whatsapp-solid" target="_blank" rel="noopener">WhatsApp預約檢查</a>
             </div>
         </div>

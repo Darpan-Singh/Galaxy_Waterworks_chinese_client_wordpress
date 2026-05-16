@@ -229,13 +229,13 @@
     <div class="cases-carousel-wrapper">
         <div class="cases-carousel" id="casesCarousel">
             <?php
-            $cases = ['天台防水工程','外牆修葺工程','浴室防水工程','窗框防漏工程'];
+            $cases = ['鋁窗防水工程','鋁窗防水工程','鋁窗防水工程','鋁窗防水工程'];
             for ($i = 1; $i <= 4; $i++): ?>
             <div class="case-card">
                 <div class="case-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/case-<?php echo $i; ?>.jpg')">
                     <div class="case-overlay">
                         <span class="case-tag"><?php echo $cases[$i-1]; ?></span>
-                        <a href="https://wa.me/85252225111" class="case-link" target="_blank" rel="noopener">WhatsApp預約</a>
+                        <a href="https://wa.me/85252225111" class="case-link" target="_blank" rel="noopener">免費報價</a>
                     </div>
                 </div>
             </div>
