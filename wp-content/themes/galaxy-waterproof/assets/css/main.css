@@ -230,21 +230,55 @@ ul{list-style:none}
   padding:52px 0;background:#fff;
   border-bottom:1px solid var(--border);text-align:center;
 }
-.trust-section .eyebrow{margin-bottom:8px}
+.trust-heading{
+  font-size:clamp(20px,2.5vw,26px);font-weight:700;
+  color:var(--text);margin-bottom:10px;
+}
 .trust-title{
-  font-size:15px;font-weight:600;color:var(--text-mid);margin-bottom:32px;
+  font-size:15px;color:var(--text-mid);margin-bottom:36px;
 }
 .trust-logos{
   display:flex;align-items:center;justify-content:center;
   gap:48px;flex-wrap:wrap;
 }
 .trust-logo{
-  font-size:13px;font-weight:700;letter-spacing:.1em;color:#bbb;
-  display:flex;align-items:center;gap:5px;
-  transition:color var(--ease);
+  display:inline-flex;align-items:center;
+  color:#aaa;transition:color var(--ease);
 }
 .trust-logo:hover{color:#888}
-.trust-logo em{font-style:italic}
+
+/* VIN-TAGE */
+.tl-vintage-plain{font-size:14px;font-weight:600;letter-spacing:.06em;color:#aaa}
+.tl-vintage-box{
+  font-size:14px;font-weight:600;letter-spacing:.06em;color:#aaa;
+  border:1.5px solid #bbb;padding:2px 6px;margin-left:1px;
+}
+/* VIOLET */
+.tl-violet{font-size:14px;font-weight:700;letter-spacing:.12em;color:#aaa}
+/* CEATHES */
+.tl-ceathes{
+  font-size:14px;font-weight:600;letter-spacing:.08em;color:#aaa;
+  border-bottom:1.5px solid #bbb;padding-bottom:3px;
+}
+/* Creater Fav */
+.tl-creator{gap:7px}
+.tl-creator-circle{
+  width:26px;height:26px;border-radius:50%;
+  border:1.5px solid #bbb;flex-shrink:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:12px;color:#aaa;font-weight:600;
+}
+.tl-creator-text{font-size:13px;color:#aaa;text-align:left;line-height:1.4;font-weight:500}
+/* LAVENDER AGENCY */
+.tl-lavender{gap:9px}
+.tl-lavender-bar{
+  display:inline-block;width:1.5px;height:34px;
+  background:#bbb;flex-shrink:0;
+}
+.tl-lavender-text{
+  font-size:11px;color:#aaa;text-align:left;line-height:1.65;
+  letter-spacing:.1em;font-weight:600;
+}
 
 /* ══════════════════════════════════════════════
    ADVANTAGES
