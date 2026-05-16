@@ -98,9 +98,9 @@ ul{list-style:none}
 .btn-whatsapp:hover{background:var(--teal-mid)}
 
 .btn-whatsapp-solid{
-  background:#25D366;color:#fff;
+  background:var(--teal);color:#fff;
 }
-.btn-whatsapp-solid:hover{opacity:.88;transform:translateY(-1px)}
+.btn-whatsapp-solid:hover{background:var(--teal-mid);transform:translateY(-1px)}
 
 .btn-lg{padding:14px 32px !important;font-size:15px !important}
 .btn-white{background:#fff;color:var(--text)}
@@ -442,7 +442,7 @@ ul{list-style:none}
 }
 .appt-icon{color:var(--text);display:flex;align-items:center;justify-content:center}
 .appt-step-label{display:flex;align-items:flex-start;gap:10px;width:100%}
-.step-num{font-size:26px;font-weight:900;color:var(--text);line-height:1;flex-shrink:0}
+.step-num{font-size:26px;font-weight:900;color:var(--teal);line-height:1;flex-shrink:0}
 .appt-step-label p{font-size:14px;color:var(--text-mid);line-height:1.5}
 .appt-step-label small{font-size:12px;color:var(--text-soft);display:block;margin-top:3px}
 
