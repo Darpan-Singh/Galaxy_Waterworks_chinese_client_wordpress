@@ -295,21 +295,21 @@ ul{list-style:none}
    PROBLEMS
 ══════════════════════════════════════════════ */
 .problems-section{padding:60px 0 0;background:#fff}
+
+.problems-outer{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.prob-col-left,.prob-col-right{display:flex;flex-direction:column;gap:4px}
+
 .prob-heading{
-  padding:0 clamp(24px,4.5vw,56px) 32px;
+  padding:40px clamp(24px,4.5vw,56px);
+  min-height:220px;display:flex;align-items:center;
 }
 .prob-heading h2{
   font-size:clamp(26px,3.5vw,44px);font-weight:900;
   line-height:1.25;color:var(--text);
 }
-
-.problems-grid{
-  display:grid;grid-template-columns:1fr 1fr;gap:4px;
-}
-
 .prob-card{
   position:relative;overflow:hidden;
-  min-height:320px;
+  flex:1;min-height:220px;
 }
 
 .prob-img{
@@ -675,9 +675,11 @@ ul{list-style:none}
   .advantages-section{padding:60px 0}
 
   /* Problems */
-  .prob-heading{padding:0 20px 24px}
   .problems-section{padding:40px 0 0}
-  .prob-card{min-height:240px}
+  .problems-outer{grid-template-columns:1fr}
+  .prob-col-left,.prob-col-right{gap:4px}
+  .prob-heading{min-height:auto;padding:28px 20px}
+  .prob-card{min-height:220px}
 
   /* Technology */
   .tech-section{padding:60px 0}
