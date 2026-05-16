@@ -11,10 +11,14 @@ body.admin-bar .site-header{top:32px}
 
 /* ── RESET ── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+  width:100%;max-width:100%;
+}
 body{
   font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;
-  color:#222;font-size:16px;line-height:1.7;background:#fff
+  color:#222;font-size:16px;line-height:1.7;background:#fff;
+  width:100%;max-width:100%;overflow-x:hidden;
 }
 img{max-width:100%;display:block}
 a{text-decoration:none;color:inherit}
