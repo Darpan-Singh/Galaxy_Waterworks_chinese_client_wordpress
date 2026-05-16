@@ -1,0 +1,28 @@
+{
+  "name": "Galaxy Waterproof",
+  "title": "Galaxy Waterproof",
+  "version": "1",
+  "author": "Galaxy Waterproof",
+  "description": "銀河防水 Professional Waterproofing Services Hong Kong",
+  "thumbnail": "",
+  "created": "2026-05-16T00:00:00",
+  "elementor_version": "3.1.0",
+  "plugins": [],
+  "templates": [
+    {
+      "name": "homepage",
+      "title": "Galaxy Waterproof Homepage",
+      "type": "page",
+      "thumbnail": "",
+      "url": "templates/homepage.json",
+      "export_date": "2026-05-16T00:00:00",
+      "source": "local",
+      "language": ""
+    }
+  ],
+  "content": {},
+  "site-settings": {
+    "settings": {},
+    "kit_settings": {}
+  }
+}
