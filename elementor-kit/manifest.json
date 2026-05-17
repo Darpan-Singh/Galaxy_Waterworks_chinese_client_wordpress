@@ -1,17 +1,17 @@
 {
   "name": "Galaxy Waterproof",
   "title": "Galaxy Waterproof",
-  "version": "2",
+  "version": "3",
   "author": "Galaxy Waterproof",
-  "description": "銀河防水 Complete Site – Header, Footer + 6 Pages",
+  "description": "Complete site – 6 pages with native Elementor widgets",
   "thumbnail": "",
   "created": "2026-05-17T00:00:00",
-  "elementor_version": "3.1.0",
+  "elementor_version": "3.21.0",
   "plugins": [],
   "templates": [
     {
       "name": "homepage",
-      "title": "銀河防水 – 首頁",
+      "title": "首頁",
       "type": "page",
       "thumbnail": "",
       "url": "templates/homepage.json",
@@ -21,7 +21,7 @@
     },
     {
       "name": "services",
-      "title": "銀河防水 – 服務範圍",
+      "title": "服務範圍",
       "type": "page",
       "thumbnail": "",
       "url": "templates/services.json",
@@ -31,7 +31,7 @@
     },
     {
       "name": "cases",
-      "title": "銀河防水 – 成功個案",
+      "title": "成功個案",
       "type": "page",
       "thumbnail": "",
       "url": "templates/cases.json",
@@ -41,7 +41,7 @@
     },
     {
       "name": "about",
-      "title": "銀河防水 – 品牌故事",
+      "title": "品牌故事",
       "type": "page",
       "thumbnail": "",
       "url": "templates/about.json",
@@ -51,7 +51,7 @@
     },
     {
       "name": "blog",
-      "title": "銀河防水 – 防水網誌",
+      "title": "防水網誌",
       "type": "page",
       "thumbnail": "",
       "url": "templates/blog.json",
@@ -61,7 +61,7 @@
     },
     {
       "name": "contact",
-      "title": "銀河防水 – 聯絡我們",
+      "title": "聯絡我們",
       "type": "page",
       "thumbnail": "",
       "url": "templates/contact.json",

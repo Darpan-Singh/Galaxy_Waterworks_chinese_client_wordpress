@@ -4,12 +4,10 @@
   "type": "page",
   "content": [
     {
-      "id": "s1171",
+      "id": "e00374",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -18,6 +16,8 @@
           "left": "0",
           "isLinked": false
         },
+        "background_background": "classic",
+        "background_color": "#fff",
         "border_border": "solid",
         "border_width": {
           "unit": "px",
@@ -31,18 +31,18 @@
       },
       "elements": [
         {
-          "id": "c1170",
+          "id": "e00373",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1169",
+              "id": "e00372",
               "elType": "widget",
               "widgetType": "html",
               "settings": {
-                "html": "<header style=\"background:#fff;border-bottom:1px solid #E8EDED;display:flex;align-items:center;justify-content:space-between;padding:14px 60px;gap:20px;width:100%;box-sizing:border-box\">\n  <a href=\"/\" style=\"display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/logo.jpg\" style=\"height:44px;width:auto;display:block\" alt=\"銀河防水\">\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:22px;font-weight:900;color:#1A1A1A\">銀河防水</span>\n  </a>\n  <nav style=\"display:flex;align-items:center;gap:28px;flex:1;justify-content:center\">\n    <a href=\"/\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">首頁</a>\n    <a href=\"/services\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">服務範圍</a>\n    <a href=\"/cases\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">成功案例</a>\n    <a href=\"/blog\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">防水網誌</a>\n    <a href=\"/about\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">品牌故事</a>\n  </nav>\n  <div style=\"display:flex;align-items:center;gap:12px;flex-shrink:0\">\n    <a href=\"https://www.facebook.com/galaxywindowhk\" target=\"_blank\" style=\"width:30px;height:30px;border-radius:50%;border:1.5px solid #ddd;display:flex;align-items:center;justify-content:center;color:#555;text-decoration:none\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z\"/></svg></a>\n    <a href=\"https://www.instagram.com/galaxywindowhk\" target=\"_blank\" style=\"width:30px;height:30px;border-radius:50%;border:1.5px solid #ddd;display:flex;align-items:center;justify-content:center;color:#555;text-decoration:none\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"17.5\" cy=\"6.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/></svg></a>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:flex;flex-direction:column;align-items:center;background:#5BBCBC;color:#fff;border-radius:10px;padding:7px 16px;text-decoration:none;gap:2px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:10.5px;font-weight:600;display:flex;align-items:center;gap:4px\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z\"/></svg>WhatsApp 快速查詢</span>\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:900\">9123-4567</span>\n    </a>\n  </div>\n</header>"
+                "html": "<header style=\"background:#fff;border-bottom:1px solid #E8EDED;display:flex;align-items:center;justify-content:space-between;padding:14px 60px;gap:20px;width:100%;box-sizing:border-box\">\n<a href=\"/\" style=\"display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0\"><img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/logo.jpg\" style=\"height:44px;width:auto\" alt=\"銀河防水\"><span style=\"font-family:'Noto Sans TC',sans-serif;font-size:22px;font-weight:900;color:#1A1A1A\">銀河防水</span></a>\n<nav style=\"display:flex;align-items:center;gap:28px;flex:1;justify-content:center\">\n<a href=\"/\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">首頁</a>\n<a href=\"/services\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">服務範圍</a>\n<a href=\"/cases\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">成功案例</a>\n<a href=\"/blog\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">防水網誌</a>\n<a href=\"/about\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:500;color:#1A1A1A;text-decoration:none\">品牌故事</a>\n</nav>\n<a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:flex;flex-direction:column;align-items:center;background:#5BBCBC;color:#fff;border-radius:10px;padding:7px 18px;text-decoration:none;flex-shrink:0\">\n<span style=\"font-family:'Noto Sans TC',sans-serif;font-size:10.5px;font-weight:600;display:flex;align-items:center;gap:4px\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z\"/></svg>WhatsApp 快速查詢</span>\n<span style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:900\">9123-4567</span>\n</a>\n</header>"
               }
             }
           ]
@@ -50,12 +50,10 @@
       ]
     },
     {
-      "id": "s1085",
+      "id": "e00201",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#EDF7F7",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -63,22 +61,50 @@
           "bottom": "80",
           "left": "60",
           "isLinked": false
-        }
+        },
+        "background_background": "classic",
+        "background_color": "#EDF7F7"
       },
       "elements": [
         {
-          "id": "c1084",
+          "id": "e00200",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1082",
+              "id": "e00197",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
                 "title": "成功個案",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#5BBCBC",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "700",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "8",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "e00198",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "超過 10,000 宗",
                 "header_size": "h1",
                 "align": "center",
                 "title_color": "#1A1A1A",
@@ -93,18 +119,18 @@
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "12",
+                  "bottom": "14",
                   "left": "0",
                   "isLinked": false
                 }
               }
             },
             {
-              "id": "w1083",
+              "id": "e00199",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style=\"font-family:'Noto Sans TC',sans-serif;font-size:16px;color:#555;text-align:center;line-height:1.8\">超過 10,000 宗成功防水工程，每一個案均由工程師跟進，確保品質達標</p>",
+                "editor": "<p style=\"font-family:'Noto Sans TC',sans-serif;font-size:16px;color:#555555;text-align:center;line-height:1.8\">由工程師跟進，確保每個工程品質達標</p>",
                 "_margin": {
                   "unit": "px",
                   "top": "0",
@@ -120,12 +146,10 @@
       ]
     },
     {
-      "id": "s1088",
+      "id": "e00210",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
           "top": "60",
@@ -133,22 +157,159 @@
           "bottom": "60",
           "left": "60",
           "isLinked": false
-        }
+        },
+        "background_background": "classic",
+        "background_color": "#fff"
       },
       "elements": [
         {
-          "id": "c1087",
+          "id": "e00203",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1086",
+              "id": "e00202",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<div style=\"display:grid;grid-template-columns:repeat(4,1fr);gap:24px\"><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-1.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">天台防水工程</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">屯門舊樓天台翻新，採用 Polyurea 聚脲噴塗，施工當日完成，次日可投入使用。工程後進行積水測試確認效果。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-2.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">外牆修葺工程</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">九龍灣工廠大廈外牆批盪大面積鬆脫，我們完成石屎敲鑿、重新批盪及外牆防水塗料噴塗，恢復外牆防水功能。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-3.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">浴室防水工程</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">沙田私人屋苑浴室地台滲漏導致樓下天花剝落，拆除舊瓷磚後重做防水層，並進行 48 小時閉水測試。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-4.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">窗框防漏工程</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">將軍澳住宅窗框四邊大範圍滲水，以高壓注射聚氨酯配合重新收口，徹底解決落雨滲水問題。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div></div>"
+                "title": "天台及平台防水工程",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00205",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00204",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-1.jpg",
+                  "id": ""
+                },
+                "title_text": "屯門天台翻新",
+                "description_text": "Polyurea聚脲噴塗，施工當日完成，次日可用。積水測試通過。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00207",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00206",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-2.jpg",
+                  "id": ""
+                },
+                "title_text": "葵涌工廠天台",
+                "description_text": "加裝高反射隔熱防水系統，降溫節能同時解決滲漏。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00209",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00208",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-3.jpg",
+                  "id": ""
+                },
+                "title_text": "大圍露台防水",
+                "description_text": "重做防水層並加設去水坡度，徹底解決積水問題。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
               }
             }
           ]
@@ -156,35 +317,170 @@
       ]
     },
     {
-      "id": "s1091",
+      "id": "e00219",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
-          "top": "0",
+          "top": "60",
           "right": "60",
-          "bottom": "0",
+          "bottom": "60",
           "left": "60",
           "isLinked": false
-        }
+        },
+        "background_background": "classic",
+        "background_color": "#F5F5F3"
       },
       "elements": [
         {
-          "id": "c1090",
+          "id": "e00212",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1089",
+              "id": "e00211",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<div style=\"display:grid;grid-template-columns:repeat(4,1fr);gap:24px\"><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-1.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">隔熱防水系統</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">葵涌工廠天台加裝高反射隔熱防水系統，有效降低室內溫度，節省冷氣電費，同時解決滲漏問題。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-2.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">灌漿止漏工程</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">觀塘停車場外牆結構性裂縫持續滲水，採用高壓環氧樹脂灌漿，封堵裂縫，永久止漏。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-3.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">露台防水工程</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">大圍露台積水問題，重做防水層並加設去水坡度，徹底解決積水及滲漏問題。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div><div style=\"border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);background:#fff\">\n  <div style=\"position:relative\">\n    <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-4.jpg\" style=\"width:100%;height:240px;object-fit:cover;display:block\">\n    <div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 50%);display:flex;align-items:flex-end;padding:16px\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;color:#fff\">廚房地台防水</span>\n    </div>\n  </div>\n  <div style=\"padding:18px 20px\">\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.75\">旺角舊樓廚房地台長期潮濕，重做防水膜，加強收口處理，解決鄰居天花滴水問題。</p>\n    <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600;color:#5BBCBC;text-decoration:none\">WhatsApp 查詢 →</a>\n  </div>\n</div></div>"
+                "title": "家居滲漏修復工程",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00214",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00213",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-4.jpg",
+                  "id": ""
+                },
+                "title_text": "沙田浴室地台",
+                "description_text": "拆除舊磚重做防水層，48小時閉水測試通過。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00216",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00215",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-1.jpg",
+                  "id": ""
+                },
+                "title_text": "將軍澳窗框防漏",
+                "description_text": "高壓注射聚氨酯配合重新收口，徹底解決落雨滲水。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00218",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00217",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-2.jpg",
+                  "id": ""
+                },
+                "title_text": "旺角廚房地台",
+                "description_text": "防水膜加強收口處理，解決鄰居天花滴水問題。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
               }
             }
           ]
@@ -192,35 +488,170 @@
       ]
     },
     {
-      "id": "s1094",
+      "id": "e00228",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#fff",
         "padding": {
           "unit": "px",
-          "top": "0",
+          "top": "60",
           "right": "60",
-          "bottom": "0",
+          "bottom": "60",
           "left": "60",
           "isLinked": false
-        }
+        },
+        "background_background": "classic",
+        "background_color": "#fff"
       },
       "elements": [
         {
-          "id": "c1093",
+          "id": "e00221",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1092",
+              "id": "e00220",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<div style=\"display:flex;justify-content:space-around;align-items:center;padding:48px 0;border-top:1px solid #E8EDED;border-bottom:1px solid #E8EDED\">\n  <div style=\"text-align:center\">\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:42px;font-weight:900;color:#5BBCBC;display:block;line-height:1\">10,000+</span>\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:12px;color:#555;display:block;margin-top:6px;line-height:1.5\">成功工程宗數</span>\n  </div><div style=\"text-align:center\">\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:42px;font-weight:900;color:#5BBCBC;display:block;line-height:1\">12年</span>\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:12px;color:#555;display:block;margin-top:6px;line-height:1.5\">防水工程經驗</span>\n  </div><div style=\"text-align:center\">\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:42px;font-weight:900;color:#5BBCBC;display:block;line-height:1\">6大</span>\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:12px;color:#555;display:block;margin-top:6px;line-height:1.5\">滲漏問題類型</span>\n  </div><div style=\"text-align:center\">\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:42px;font-weight:900;color:#5BBCBC;display:block;line-height:1\">100%</span>\n    <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:12px;color:#555;display:block;margin-top:6px;line-height:1.5\">閉水測試通過</span>\n  </div>\n</div>"
+                "title": "結構及外牆工程",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00223",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00222",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-3.jpg",
+                  "id": ""
+                },
+                "title_text": "九龍灣外牆修葺",
+                "description_text": "石屎敲鑿、重新批盪及外牆防水塗料噴塗。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00225",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00224",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-4.jpg",
+                  "id": ""
+                },
+                "title_text": "觀塘停車場灌漿",
+                "description_text": "高壓環氧樹脂灌漿，封堵結構性裂縫，永久止漏。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00227",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "e00226",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": {
+                  "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-1.jpg",
+                  "id": ""
+                },
+                "title_text": "荃灣外牆裂縫",
+                "description_text": "裂縫注射修補配合防水塗料，恢復外牆功能。",
+                "title_size": "h3",
+                "title_color": "#1A1A1A",
+                "description_color": "#555555",
+                "title_typography_font_family": "Noto Sans TC",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "title_typography_font_weight": "800",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                }
               }
             }
           ]
@@ -228,10 +659,241 @@
       ]
     },
     {
-      "id": "s1099",
+      "id": "e00241",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "60",
+          "bottom": "60",
+          "left": "60",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F5F5F3"
+      },
+      "elements": [
+        {
+          "id": "e00231",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "e00229",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "10,000+",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#5BBCBC",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "6",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "e00230",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555555\">成功工程宗數</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00234",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "e00232",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "12年",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#5BBCBC",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "6",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "e00233",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555555\">防水工程經驗</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00237",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "e00235",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "6大",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#5BBCBC",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "6",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "e00236",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555555\">滲漏問題類型</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "e00240",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "e00238",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "100%",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#5BBCBC",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
+                "typography_font_weight": "900",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "6",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "e00239",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555555\">閉水測試通過</p>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e00379",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "60",
+          "bottom": "90",
+          "left": "60",
+          "isLinked": false
+        },
         "background_background": "classic",
         "background_image": {
           "url": "https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/cta-bg.jpg",
@@ -240,26 +902,18 @@
         "background_size": "cover",
         "background_position": "center center",
         "background_overlay_background": "classic",
-        "background_overlay_color": "rgba(230,248,248,0.80)",
-        "padding": {
-          "unit": "px",
-          "top": "90",
-          "right": "60",
-          "bottom": "90",
-          "left": "60",
-          "isLinked": false
-        }
+        "background_overlay_color": "rgba(230,248,248,0.80)"
       },
       "elements": [
         {
-          "id": "c1098",
+          "id": "e00378",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1095",
+              "id": "e00375",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -285,33 +939,23 @@
               }
             },
             {
-              "id": "w1096",
+              "id": "e00376",
               "elType": "widget",
-              "widgetType": "heading",
+              "widgetType": "text-editor",
               "settings": {
-                "title": "別再忍受滲漏困擾  從源頭一次解決",
-                "header_size": "p",
-                "align": "left",
-                "title_color": "#555555",
-                "typography_typography": "custom",
-                "typography_font_family": "Noto Sans TC",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 17
-                },
-                "typography_font_weight": "400",
+                "editor": "<p style=\"font-family:'Noto Sans TC',sans-serif;font-size:17px;color:#555555;line-height:1.7\">別再忍受滲漏困擾  從源頭一次解決</p>",
                 "_margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "36",
+                  "bottom": "32",
                   "left": "0",
                   "isLinked": false
                 }
               }
             },
             {
-              "id": "w1097",
+              "id": "e00377",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -356,48 +1000,10 @@
       ]
     },
     {
-      "id": "s1174",
+      "id": "e00382",
       "elType": "section",
       "settings": {
         "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#F5F5F3",
-        "padding": {
-          "unit": "px",
-          "top": "0",
-          "right": "0",
-          "bottom": "0",
-          "left": "0",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "c1173",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100
-          },
-          "elements": [
-            {
-              "id": "w1172",
-              "elType": "widget",
-              "widgetType": "html",
-              "settings": {
-                "html": "<div style=\"background:#F5F5F3;padding:64px 60px 48px;display:grid;grid-template-columns:2fr 1fr 2fr;gap:48px;box-sizing:border-box;width:100%\">\n  <div>\n    <a href=\"/\" style=\"display:inline-flex;align-items:center;gap:8px;text-decoration:none;margin-bottom:16px\">\n      <img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/logo.jpg\" style=\"height:48px;width:auto;display:block\" alt=\"銀河防水\">\n      <span style=\"font-family:'Noto Sans TC',sans-serif;font-size:26px;font-weight:900;color:#1A1A1A\">銀河防水</span>\n    </a>\n    <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.8;margin-bottom:24px\">本公司為屋宇署認可I級註冊小型工程承建商(公司) 多年來致力為客戶提供專業鋁窗檢驗，維修保養及防漏工程服務。</p>\n    <div style=\"display:flex;flex-direction:column;gap:12px\">\n      <a href=\"mailto:galaxywindowhk@gmail.com\" style=\"display:flex;align-items:center;justify-content:space-between;border:2px solid #5BBCBC;color:#5BBCBC;border-radius:50px;padding:10px 12px 10px 16px;font-family:'Noto Sans TC',sans-serif;font-weight:600;font-size:14px;text-decoration:none\">\n        <span style=\"display:flex;align-items:center;gap:8px\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3\"/><line x1=\"12\" y1=\"17\" x2=\"12.01\" y2=\"17\"/></svg>網上報價查詢</span>\n        <span style=\"width:26px;height:26px;border:1.5px solid #5BBCBC;border-radius:50%;display:flex;align-items:center;justify-content:center\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"9 18 15 12 9 6\"/></svg></span>\n      </a>\n      <a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:flex;align-items:center;justify-content:space-between;background:#5BBCBC;color:#fff;border-radius:50px;padding:10px 12px 10px 16px;font-family:'Noto Sans TC',sans-serif;font-weight:600;font-size:14px;text-decoration:none\">\n        <span style=\"display:flex;align-items:center;gap:8px\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z\"/></svg>WhatsApp預約檢查</span>\n        <span style=\"width:26px;height:26px;background:rgba(255,255,255,0.25);border-radius:50%;display:flex;align-items:center;justify-content:center\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"9 18 15 12 9 6\"/></svg></span>\n      </a>\n    </div>\n  </div>\n  <nav>\n    <ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:16px\">\n      <li><a href=\"/\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14.5px;color:#1A1A1A;font-weight:500;text-decoration:none\">首頁</a></li>\n      <li><a href=\"/services\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14.5px;color:#1A1A1A;font-weight:500;text-decoration:none\">服務範圍</a></li>\n      <li><a href=\"/cases\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14.5px;color:#1A1A1A;font-weight:500;text-decoration:none\">成功案例</a></li>\n      <li><a href=\"/blog\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14.5px;color:#1A1A1A;font-weight:500;text-decoration:none\">防水網誌</a></li>\n      <li><a href=\"/about\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14.5px;color:#1A1A1A;font-weight:500;text-decoration:none\">品牌故事</a></li>\n    </ul>\n  </nav>\n  <div>\n    <div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:18px\">\n      <p style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:700;color:#1A1A1A;margin:0\">如有查詢及報價，歡迎與我們聯絡。</p>\n      <a href=\"https://www.facebook.com/galaxywindowhk\" target=\"_blank\" style=\"width:34px;height:34px;border-radius:50%;border:1.5px solid #ddd;display:flex;align-items:center;justify-content:center;color:#555;text-decoration:none\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z\"/></svg></a>\n    </div>\n    <ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px\">\n      <li style=\"display:flex;align-items:flex-start;gap:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5BBCBC\" stroke-width=\"2\"><path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/><polyline points=\"22,6 12,13 2,6\"/></svg><a href=\"mailto:galaxywindowhk@gmail.com\" style=\"color:#555;text-decoration:none\">galaxywindowhk@gmail.com</a></li>\n      <li style=\"display:flex;align-items:flex-start;gap:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5BBCBC\" stroke-width=\"2\"><path d=\"M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012.03 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z\"/></svg><span>(852) 5222 5111 &nbsp;|&nbsp; (852) 6880 0698</span></li>\n      <li style=\"display:flex;align-items:flex-start;gap:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5BBCBC\" stroke-width=\"2\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg><span>九龍大角咀通州街123號國貿中心2樓C室</span></li>\n    </ul>\n  </div>\n</div>"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "s1177",
-      "elType": "section",
-      "settings": {
-        "stretch_section": "section-stretched",
-        "background_background": "classic",
-        "background_color": "#F5F5F3",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -406,31 +1012,23 @@
           "left": "0",
           "isLinked": false
         },
-        "border_border": "solid",
-        "border_width": {
-          "unit": "px",
-          "top": "1",
-          "right": "0",
-          "bottom": "0",
-          "left": "0",
-          "isLinked": false
-        },
-        "border_color": "#E8EDED"
+        "background_background": "classic",
+        "background_color": "#F5F5F3"
       },
       "elements": [
         {
-          "id": "c1176",
+          "id": "e00381",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "w1175",
+              "id": "e00380",
               "elType": "widget",
               "widgetType": "html",
               "settings": {
-                "html": "<div style=\"background:#F5F5F3;border-top:1px solid #E8EDED;padding:18px 60px;box-sizing:border-box;width:100%\"><p style=\"font-family:'Noto Sans TC',sans-serif;text-align:center;font-size:12px;color:#888\">©2026, 銀河防水有限公司</p></div>"
+                "html": "<footer style=\"background:#F5F5F3;padding:60px 60px 0;box-sizing:border-box\">\n<div style=\"display:grid;grid-template-columns:2fr 1fr 2fr;gap:48px;padding-bottom:48px;border-bottom:1px solid #E8EDED\">\n<div>\n<a href=\"/\" style=\"display:inline-flex;align-items:center;gap:10px;text-decoration:none;margin-bottom:14px\"><img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/logo.jpg\" style=\"height:44px;width:auto\"><span style=\"font-family:'Noto Sans TC',sans-serif;font-size:22px;font-weight:900;color:#1A1A1A\">銀河防水</span></a>\n<p style=\"font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555;line-height:1.8;margin-bottom:22px\">本公司為屋宇署認可I級註冊小型工程承建商(公司) 多年來致力為客戶提供專業鋁窗檢驗，維修保養及防漏工程服務。</p>\n<div style=\"display:flex;flex-direction:column;gap:10px\">\n<a href=\"mailto:galaxywindowhk@gmail.com\" style=\"display:inline-flex;align-items:center;justify-content:space-between;border:2px solid #5BBCBC;color:#5BBCBC;border-radius:50px;padding:10px 16px;font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;text-decoration:none\">網上報價查詢 <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"9 18 15 12 9 6\"/></svg></a>\n<a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:8px;background:#5BBCBC;color:#fff;border-radius:50px;padding:10px 16px;font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;text-decoration:none\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z\"/></svg>WhatsApp預約檢查</a>\n</div>\n</div>\n<nav><ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px\">\n<li><a href=\"/\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;color:#1A1A1A;font-weight:500;text-decoration:none\">首頁</a></li>\n<li><a href=\"/services\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;color:#1A1A1A;font-weight:500;text-decoration:none\">服務範圍</a></li>\n<li><a href=\"/cases\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;color:#1A1A1A;font-weight:500;text-decoration:none\">成功案例</a></li>\n<li><a href=\"/blog\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;color:#1A1A1A;font-weight:500;text-decoration:none\">防水網誌</a></li>\n<li><a href=\"/about\" style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;color:#1A1A1A;font-weight:500;text-decoration:none\">品牌故事</a></li>\n</ul></nav>\n<div>\n<p style=\"font-family:'Noto Sans TC',sans-serif;font-size:14px;font-weight:700;color:#1A1A1A;margin-bottom:18px\">如有查詢及報價，歡迎與我們聯絡。</p>\n<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px\">\n<li style=\"display:flex;align-items:flex-start;gap:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5BBCBC\" stroke-width=\"2\" style=\"flex-shrink:0;margin-top:2px\"><path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/><polyline points=\"22,6 12,13 2,6\"/></svg><a href=\"mailto:galaxywindowhk@gmail.com\" style=\"color:#555;text-decoration:none\">galaxywindowhk@gmail.com</a></li>\n<li style=\"display:flex;align-items:flex-start;gap:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5BBCBC\" stroke-width=\"2\" style=\"flex-shrink:0;margin-top:2px\"><path d=\"M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012.03 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z\"/></svg><span>(852) 5222 5111 | (852) 6880 0698</span></li>\n<li style=\"display:flex;align-items:flex-start;gap:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;color:#555\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5BBCBC\" stroke-width=\"2\" style=\"flex-shrink:0;margin-top:2px\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg><span>九龍大角咀通州街123號國貿中心2樓C室</span></li>\n</ul>\n</div>\n</div>\n<p style=\"font-family:'Noto Sans TC',sans-serif;text-align:center;font-size:12px;color:#888;padding:18px 0\">©2026, 銀河防水有限公司</p>\n</footer>"
               }
             }
           ]
