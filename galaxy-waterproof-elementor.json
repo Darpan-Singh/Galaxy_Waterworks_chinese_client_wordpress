@@ -776,6 +776,87 @@
     },
 
     {
+      "id": "s009c",
+      "elType": "section",
+      "settings": {
+        "stretch_section": "section-stretched",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {"unit": "px", "top": "80", "right": "60", "bottom": "80", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "c031a",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w053a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "成功個案",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_size": {"unit": "px", "size": 36},
+                "typography_font_weight": "900",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "44", "left": "0", "isLinked": false}
+              }
+            }
+          ]
+        },
+        {
+          "id": "c031b", "elType": "column", "settings": {"_column_size": 25},
+          "elements": [{"id": "w053b","elType": "widget","widgetType": "html","settings": {"html": "<a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:block;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08);text-decoration:none;position:relative\"><img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-1.jpg\" style=\"width:100%;height:260px;object-fit:cover;display:block\"><div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 50%);display:flex;flex-direction:column;justify-content:flex-end;padding:18px\"><span style=\"font-family:'Noto Sans TC',sans-serif;display:block;font-size:13px;font-weight:700;color:#fff\">天台防水工程</span><span style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:8px;font-size:12px;color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.6);border-radius:50px;padding:4px 12px\">WhatsApp預約</span></div></a>"}}]
+        },
+        {
+          "id": "c031c", "elType": "column", "settings": {"_column_size": 25},
+          "elements": [{"id": "w053c","elType": "widget","widgetType": "html","settings": {"html": "<a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:block;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08);text-decoration:none;position:relative\"><img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-2.jpg\" style=\"width:100%;height:260px;object-fit:cover;display:block\"><div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 50%);display:flex;flex-direction:column;justify-content:flex-end;padding:18px\"><span style=\"font-family:'Noto Sans TC',sans-serif;display:block;font-size:13px;font-weight:700;color:#fff\">外牆修葺工程</span><span style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:8px;font-size:12px;color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.6);border-radius:50px;padding:4px 12px\">WhatsApp預約</span></div></a>"}}]
+        },
+        {
+          "id": "c031d", "elType": "column", "settings": {"_column_size": 25},
+          "elements": [{"id": "w053d","elType": "widget","widgetType": "html","settings": {"html": "<a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:block;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08);text-decoration:none;position:relative\"><img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-3.jpg\" style=\"width:100%;height:260px;object-fit:cover;display:block\"><div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 50%);display:flex;flex-direction:column;justify-content:flex-end;padding:18px\"><span style=\"font-family:'Noto Sans TC',sans-serif;display:block;font-size:13px;font-weight:700;color:#fff\">浴室防水工程</span><span style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:8px;font-size:12px;color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.6);border-radius:50px;padding:4px 12px\">WhatsApp預約</span></div></a>"}}]
+        },
+        {
+          "id": "c031e", "elType": "column", "settings": {"_column_size": 25},
+          "elements": [{"id": "w053e","elType": "widget","widgetType": "html","settings": {"html": "<a href=\"https://wa.me/85252225111\" target=\"_blank\" style=\"display:block;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08);text-decoration:none;position:relative\"><img src=\"https://galaxy-waterproof.vercel.app/wp-content/themes/galaxy-waterproof/assets/images/case-4.jpg\" style=\"width:100%;height:260px;object-fit:cover;display:block\"><div style=\"position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 50%);display:flex;flex-direction:column;justify-content:flex-end;padding:18px\"><span style=\"font-family:'Noto Sans TC',sans-serif;display:block;font-size:13px;font-weight:700;color:#fff\">窗框防漏工程</span><span style=\"font-family:'Noto Sans TC',sans-serif;display:inline-block;margin-top:8px;font-size:12px;color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.6);border-radius:50px;padding:4px 12px\">WhatsApp預約</span></div></a>"}}]
+        },
+        {
+          "id": "c031f",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w053f",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "更多個案",
+                "link": {"url": "#cases"},
+                "align": "center",
+                "background_color": "rgba(0,0,0,0)",
+                "button_text_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true},
+                "border_color": "#1A1A1A",
+                "hover_color": "#5BBCBC",
+                "button_hover_text_color": "#ffffff",
+                "border_radius": {"unit": "px", "top": 50, "right": 50, "bottom": 50, "left": 50, "isLinked": true},
+                "typography_font_family": "Noto Sans TC",
+                "typography_font_weight": "700",
+                "text_padding": {"unit": "px", "top": "13", "right": "32", "bottom": "13", "left": "32", "isLinked": false},
+                "_margin": {"unit": "px", "top": "40", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
       "id": "s009",
       "elType": "section",
       "settings": {
