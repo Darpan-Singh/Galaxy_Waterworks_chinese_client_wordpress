@@ -767,5 +767,108 @@ wxr_path = os.path.join(BASE,"galaxy-waterproof-demo.xml")
 with open(wxr_path,"w",encoding="utf-8") as f:
     f.write(wxr)
 print(f"  OK galaxy-waterproof-demo.xml  ({os.path.getsize(wxr_path)//1024} KB)")
-print("\nDone — import galaxy-waterproof-demo.xml via:")
-print("  WP Admin > Tools > Import > WordPress > Upload File")
+
+# ── WordPress Plugin installer (most reliable method) ─────────────────────────
+# Upload to wp-content/plugins/gwp-setup/gwp-setup.php, then activate once.
+
+php_page_entries = []
+for fname,(data,title,slug) in pages.items():
+    el_json = json.dumps(data["content"], ensure_ascii=False)
+    # Use PHP nowdoc (single-quoted heredoc) — no escaping needed inside
+    # Make the terminator unique to avoid collisions
+    terminator = f"GWP_JSON_{fname.upper()}_END"
+    php_page_entries.append(
+        f"    '{slug}' => [\n"
+        f"        'title' => '{title}',\n"
+        f"        'slug'  => '{slug}',\n"
+        f"        'data'  => <<<'{terminator}'\n"
+        f"{el_json}\n"
+        f"{terminator}\n"
+        f"    ],"
+    )
+
+php_pages_block = "\n".join(php_page_entries)
+
+php_plugin = f'''<?php
+/**
+ * Plugin Name: Galaxy Waterproof – Demo Setup
+ * Description: Creates all site pages with Elementor content on activation. Delete after setup.
+ * Version:     1.0
+ * Author:      Galaxy Waterproof
+ */
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+register_activation_hook( __FILE__, 'gwp_run_setup' );
+
+function gwp_run_setup() {{
+    $pages = gwp_page_data();
+
+    foreach ( $pages as $slug => $page ) {{
+        // skip if page already exists
+        if ( get_page_by_path( $slug ) ) continue;
+
+        $post_id = wp_insert_post( [
+            'post_title'   => $page['title'],
+            'post_name'    => $page['slug'],
+            'post_status'  => 'publish',
+            'post_type'    => 'page',
+            'post_content' => '',
+        ] );
+
+        if ( ! $post_id || is_wp_error( $post_id ) ) continue;
+
+        update_post_meta( $post_id, '_wp_page_template',      'elementor_canvas' );
+        update_post_meta( $post_id, '_elementor_edit_mode',   'builder' );
+        update_post_meta( $post_id, '_elementor_template_type','wp-page' );
+        update_post_meta( $post_id, '_elementor_version',     '3.21.0' );
+        update_post_meta( $post_id, '_elementor_data',        $page['data'] );
+
+        // set 首頁 as static front page
+        if ( $slug === 'home' ) {{
+            update_option( 'show_on_front', 'page' );
+            update_option( 'page_on_front', $post_id );
+        }}
+    }}
+
+    // clear Elementor CSS cache so new pages render correctly
+    if ( class_exists( '\\\\Elementor\\\\Plugin' ) ) {{
+        \\Elementor\\Plugin::$instance->files_manager->clear_cache();
+    }}
+
+    set_transient( 'gwp_setup_done', 1, 30 );
+}}
+
+// show admin notice after activation
+add_action( 'admin_notices', function() {{
+    if ( ! get_transient( 'gwp_setup_done' ) ) return;
+    delete_transient( 'gwp_setup_done' );
+    echo '<div class="notice notice-success is-dismissible"><p>'
+       . '<strong>銀河防水</strong> — 6 pages created successfully with Elementor content. '
+       . 'You can now deactivate and delete this plugin.</p></div>';
+}} );
+
+function gwp_page_data() {{
+    return [
+{php_pages_block}
+    ];
+}}
+'''
+
+plugin_dir = os.path.join(BASE, "gwp-setup")
+os.makedirs(plugin_dir, exist_ok=True)
+plugin_path = os.path.join(plugin_dir, "gwp-setup.php")
+with open(plugin_path, "w", encoding="utf-8") as f:
+    f.write(php_plugin)
+print(f"  OK gwp-setup/gwp-setup.php  ({os.path.getsize(plugin_path)//1024} KB)")
+
+# zip the plugin folder
+plugin_zip = os.path.join(BASE, "gwp-setup.zip")
+if os.path.exists(plugin_zip): os.remove(plugin_zip)
+with zipfile.ZipFile(plugin_zip, "w", zipfile.ZIP_DEFLATED) as zf:
+    zf.write(plugin_path, "gwp-setup/gwp-setup.php")
+print(f"  OK gwp-setup.zip  ({os.path.getsize(plugin_zip)//1024} KB)")
+
+print("\nDone.")
+print("  Upload gwp-setup.zip via WP Admin > Plugins > Add New > Upload Plugin")
+print("  Then activate it — all 6 pages are created instantly.")
