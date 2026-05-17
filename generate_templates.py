@@ -587,4 +587,98 @@ with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
             zf.write(abs_path, arc_name)
 zip_kb = os.path.getsize(zip_path) // 1024
 print(f"  OK galaxy-waterproof-elementor-kit.zip  ({zip_kb} KB)")
-print("\nDone. Import galaxy-waterproof-elementor-kit.zip into Elementor.")
+
+# ─── WORDPRESS XML (WXR) EXPORT ───────────────────────────────────────────────
+# Single importable file: Tools → Import → WordPress
+# Creates all pages with Elementor content pre-loaded.
+
+PAGE_ORDER = [
+    ("homepage", "首頁",    "home",     ""),
+    ("services", "服務範圍", "services", ""),
+    ("cases",    "成功個案", "cases",    ""),
+    ("about",    "品牌故事", "about",    ""),
+    ("blog",     "防水網誌", "blog",     ""),
+    ("contact",  "聯絡我們", "contact",  ""),
+]
+
+def cdata(s):
+    # Escape ]]> inside CDATA so it never breaks the XML
+    return s.replace("]]>", "]]]]><![CDATA[>")
+
+wxr_items = []
+for post_id, (fname, title, slug, _) in enumerate(PAGE_ORDER, start=10):
+    tpl_path = os.path.join(kit_tpl_dir, f"{fname}.json")
+    with open(tpl_path, encoding="utf-8") as f:
+        tpl = json.load(f)
+    el_data = json.dumps(tpl["content"], ensure_ascii=False)
+
+    wxr_items.append(f"""
+  <item>
+    <title>{title}</title>
+    <link>https://example.com/{slug}/</link>
+    <pubDate>Sat, 17 May 2026 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>{post_id}</wp:post_id>
+    <wp:post_date>2026-05-17 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2026-05-17 00:00:00</wp:post_date_gmt>
+    <wp:comment_status>closed</wp:comment_status>
+    <wp:ping_status>closed</wp:ping_status>
+    <wp:post_name>{slug}</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>{post_id}</wp:menu_order>
+    <wp:post_type>page</wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+      <wp:meta_key>_wp_page_template</wp:meta_key>
+      <wp:meta_value><![CDATA[elementor_canvas]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key>_elementor_edit_mode</wp:meta_key>
+      <wp:meta_value><![CDATA[builder]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key>_elementor_template_type</wp:meta_key>
+      <wp:meta_value><![CDATA[wp-page]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key>_elementor_version</wp:meta_key>
+      <wp:meta_value><![CDATA[3.21.0]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+      <wp:meta_key>_elementor_data</wp:meta_key>
+      <wp:meta_value><![CDATA[{cdata(el_data)}]]></wp:meta_value>
+    </wp:postmeta>
+  </item>""")
+
+wxr_xml = """<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>銀河防水</title>
+  <link>https://example.com</link>
+  <description>專業防水工程 Hong Kong</description>
+  <language>zh-TW</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://example.com</wp:base_site_url>
+  <wp:base_blog_url>https://example.com</wp:base_blog_url>
+  <generator>Galaxy Waterproof Demo Content</generator>
+""" + "".join(wxr_items) + """
+</channel>
+</rss>"""
+
+wxr_path = os.path.join(BASE, "galaxy-waterproof-demo.xml")
+with open(wxr_path, "w", encoding="utf-8") as f:
+    f.write(wxr_xml)
+kb = os.path.getsize(wxr_path) // 1024
+print(f"  OK galaxy-waterproof-demo.xml  ({kb} KB)")
+print("\nDone.")
+print("  Import galaxy-waterproof-demo.xml via:")
+print("  WP Admin -> Tools -> Import -> WordPress -> Upload File")
