@@ -45,7 +45,7 @@
     <div class="adv-cards-wrap">
         <div class="advantages-grid">
             <div class="adv-card">
-                <div class="adv-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/inspect-service.jpg" alt="先勘察、後施工、根源診斷"></div>
+                <div class="adv-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/adv-1.jpg" alt="先勘察、後施工、根源診斷"></div>
                 <div class="adv-body">
                     <div class="adv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
                     <h3>先勘察、後施工、根源診斷</h3>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="adv-card">
-                <div class="adv-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/quote-service.jpg" alt="工程師主導、報價透明"></div>
+                <div class="adv-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/adv-2-20260517.jpg" alt="工程師主導、報價透明"></div>
                 <div class="adv-body">
                     <div class="adv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
                     <h3>工程師主導、報價透明</h3>
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="adv-card">
-                <div class="adv-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/detail-service.jpg" alt="重視細節、滴水不漏"></div>
+                <div class="adv-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/adv-3-20260517.jpg" alt="重視細節、滴水不漏"></div>
                 <div class="adv-body">
                     <div class="adv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
                     <h3>重視細節、滴水不漏</h3>
@@ -102,11 +102,11 @@
 <!-- ═══ TECHNOLOGY ═══ -->
 <section class="tech-section">
     <div class="container">
-        <p class="eyebrow eyebrow--light text-center">核心技術</p>
-        <h2 class="section-title section-title--light text-center">以科學選材與工法，從源頭提升防水耐用度</h2>
+        <h2 class="section-title section-title--light text-center">核心技術</h2>
+        <p class="tech-subtitle text-center">以科學選材與工法，從源頭提升防水耐用度</p>
         <div class="tech-grid">
             <div class="tech-card">
-                <div class="tech-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tech-polyurea.jpg" alt="Polyurea 聚脲"></div>
+                <div class="tech-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tech-polyurea-20260517.jpg" alt="Polyurea 聚脲"></div>
                 <div class="tech-body">
                     <h3>Polyurea 聚脲</h3>
                     <ul class="tech-list">
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="tech-card">
-                <div class="tech-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tech-insulation.jpg" alt="隔熱降溫"></div>
+                <div class="tech-photo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tech-insulation-20260517.jpg" alt="隔熱降溫"></div>
                 <div class="tech-body">
                     <h3>隔熱降溫</h3>
                     <ul class="tech-list">
@@ -135,8 +135,8 @@
 <!-- ═══ SERVICES ═══ -->
 <section class="services-section">
     <div class="container">
-        <p class="eyebrow text-center">核心服務概覽</p>
-        <h2 class="section-title text-center">結構防水 × 家居局部滲漏</h2>
+        <h2 class="section-title text-center">核心服務概覽</h2>
+        <p class="svc-subtitle text-center">結構防水 × 家居局部滲漏</p>
         <div class="services-grid">
             <?php
             $services = [
@@ -175,7 +175,7 @@
                     <div class="stat-item"><span class="stat-num">3</span><span class="stat-label">三大服務優勢<br>專業解決漏水問題</span></div>
                 </div>
                 <div class="stats-worker-photo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker.jpg" alt="銀河防水工程師">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-20260517.jpg" alt="銀河防水工程師">
                 </div>
             </div>
             <div class="stats-right">

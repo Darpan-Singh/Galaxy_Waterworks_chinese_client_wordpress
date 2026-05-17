@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Skill(vercel:deploy)",
+      "Bash(vercel *)",
+      "Bash(python -c ' *)",
+      "Bash(python *)",
+      "Bash(git -C \"C:/Users/01dar/wordpress_website\" add \"wp-content/themes/galaxy-waterproof/assets/css/main.css\" \"index.html\")",
+      "Bash(git -C C:/Users/01dar/wordpress_website commit -m ' *)",
+      "Bash(git -C \"C:/Users/01dar/wordpress_website\" add \"wp-content/themes/galaxy-waterproof/assets/css/main.css\" \"index.html\" \"wp-content/themes/galaxy-waterproof/assets/images/tech-insulation.jpg\")",
+      "Bash(git -C \"C:/Users/01dar/wordpress_website\" push)",
+      "Bash(git -C \"C:/Users/01dar/wordpress_website\" add \"wp-content/themes/galaxy-waterproof/assets/images/trust-logos.png\" \"wp-content/themes/galaxy-waterproof/assets/css/main.css\" \"index.html\")"
+    ]
+  }
+}

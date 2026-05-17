@@ -42,7 +42,25 @@
       "Bash(echo \"*.zip\")",
       "Bash(echo \"node_modules/\")",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(gh repo *)",
+      "Bash(dir \"wp-content\\\\themes\\\\galaxy-waterproof\\\\assets\\\\images\" /b)",
+      "PowerShell(Set-Content *)",
+      "PowerShell(Start-Process \"msedge.exe\" -ArgumentList \"C:\\\\Users\\\\01dar\\\\Downloads\\\\HOME.pdf\" -PassThru | Select-Object Id, ProcessName)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $null)",
+      "Bash(vercel --prod)",
+      "Bash(vercel logs *)",
+      "Bash(vercel inspect *)",
+      "PowerShell(cd \"C:\\\\Users\\\\01dar\\\\wordpress_website\"; $env:PYTHONIOENCODING=\"utf-8\"; python generate_templates.py)",
+      "Skill(vercel:status)",
+      "Bash(vercel domains *)",
+      "PowerShell(Copy-Item *)",
+      "WebFetch(domain:galaxy-waterproof-3wlada32i-01darpansingh08-5084s-projects.vercel.app)",
+      "WebFetch(domain:galaxy-waterproof-nlj72h14r-01darpansingh08-5084s-projects.vercel.app)",
+      "WebFetch(domain:galaxy-waterproof.vercel.app)",
+      "Bash(git commit *)"
     ]
   }
 }

@@ -107,7 +107,7 @@
         <h2 class="section-title section-title--light text-center">以科學選材與工法，從源頭提升防水耐用度</h2>
         <div class="tech-grid">
             <div class="tech-card">
-                <div class="tech-photo" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/tech-polyurea.jpg')"></div>
+                <div class="tech-photo" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/tech-polyurea-20260517.jpg')"></div>
                 <div class="tech-body">
                     <h3>Polyurea 聚脲</h3>
                     <ul class="tech-list">
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="tech-card">
-                <div class="tech-photo" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/tech-insulation.jpg')"></div>
+                <div class="tech-photo" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/tech-insulation-20260517.jpg')"></div>
                 <div class="tech-body">
                     <h3>隔熱降溫</h3>
                     <ul class="tech-list">
