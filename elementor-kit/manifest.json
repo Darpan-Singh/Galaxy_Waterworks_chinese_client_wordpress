@@ -1,21 +1,71 @@
 {
   "name": "Galaxy Waterproof",
   "title": "Galaxy Waterproof",
-  "version": "1",
+  "version": "2",
   "author": "Galaxy Waterproof",
-  "description": "銀河防水 Professional Waterproofing Services Hong Kong",
+  "description": "銀河防水 Complete Site – Header, Footer + 6 Pages",
   "thumbnail": "",
-  "created": "2026-05-16T00:00:00",
+  "created": "2026-05-17T00:00:00",
   "elementor_version": "3.1.0",
   "plugins": [],
   "templates": [
     {
       "name": "homepage",
-      "title": "Galaxy Waterproof Homepage",
+      "title": "銀河防水 – 首頁",
       "type": "page",
       "thumbnail": "",
       "url": "templates/homepage.json",
-      "export_date": "2026-05-16T00:00:00",
+      "export_date": "2026-05-17T00:00:00",
+      "source": "local",
+      "language": ""
+    },
+    {
+      "name": "services",
+      "title": "銀河防水 – 服務範圍",
+      "type": "page",
+      "thumbnail": "",
+      "url": "templates/services.json",
+      "export_date": "2026-05-17T00:00:00",
+      "source": "local",
+      "language": ""
+    },
+    {
+      "name": "cases",
+      "title": "銀河防水 – 成功個案",
+      "type": "page",
+      "thumbnail": "",
+      "url": "templates/cases.json",
+      "export_date": "2026-05-17T00:00:00",
+      "source": "local",
+      "language": ""
+    },
+    {
+      "name": "about",
+      "title": "銀河防水 – 品牌故事",
+      "type": "page",
+      "thumbnail": "",
+      "url": "templates/about.json",
+      "export_date": "2026-05-17T00:00:00",
+      "source": "local",
+      "language": ""
+    },
+    {
+      "name": "blog",
+      "title": "銀河防水 – 防水網誌",
+      "type": "page",
+      "thumbnail": "",
+      "url": "templates/blog.json",
+      "export_date": "2026-05-17T00:00:00",
+      "source": "local",
+      "language": ""
+    },
+    {
+      "name": "contact",
+      "title": "銀河防水 – 聯絡我們",
+      "type": "page",
+      "thumbnail": "",
+      "url": "templates/contact.json",
+      "export_date": "2026-05-17T00:00:00",
       "source": "local",
       "language": ""
     }
